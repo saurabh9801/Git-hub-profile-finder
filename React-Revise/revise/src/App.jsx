@@ -6,6 +6,11 @@ import One from './One'
 import Two from './Two'
 import DateThree from './DateThree'
 import CssStyle from './CssStyle'
+import List from './List'
+import ControlledInput from './ControlledInput'
+import UncontrolledInput from './UncontrolledInput'
+import Counter from './Counter'
+import Parent from './Parent'
 
 
 function App() {
@@ -16,8 +21,13 @@ function App() {
       <One />  
       <Two/> 
       <DateThree />
-      <CssStyle />   
+      <CssStyle />  
+      <List />
+      <ControlledInput />
+      <UncontrolledInput />
       
+      <Counter />
+      <Parent />
     </>
   )
 }
